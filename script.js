@@ -9,13 +9,14 @@ const totalTimeEl = document.getElementById('totalTime');
 
 // Configuration
 const photos = [
-    'assets/photos/file_0000000011fc7207880c324c4e14b2ef.png',
-    'assets/photos/file_0000000016a47207a2c4c5df06298df8.png',
-    'assets/photos/file_000000001a947207afd0fa389c497a5b.png',
-    'assets/photos/file_0000000044ac7207a633f1d37d8a8563.png',
-    'assets/photos/file_0000000053c472079b8518945bfb6b9a.png',
-    'assets/photos/file_00000000ed307207a9d44b3cc7444567.png',
-    'assets/photos/file_00000000f1f47207a6aceb6f14a7f570.png'
+    'assets/photos/1.png',
+    'assets/photos/2.png',
+    'assets/photos/3.png',
+    'assets/photos/4.png',
+    'assets/photos/5.png',
+    'assets/photos/6.png',
+    'assets/photos/7.png',
+    'assets/photos/8.png'
 ];
 
 // Audio Element
