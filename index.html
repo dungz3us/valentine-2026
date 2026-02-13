@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Spotify Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="heartCanvas" class="heart-canvas"></canvas>
+    <div class="spotify-container">
+        <!-- Header -->
+        <div class="player-header">
+            <i class="fas fa-chevron-down"></i>
+            <div class="header-text">
+                <span class="playlist-from">PLAYING FROM PLAYLIST</span>
+                <span class="playlist-title">Valentine's Memories ❤️</span>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+
+        <!-- Album Art / Photo Area -->
+        <div class="album-art-container">
+            <div id="photoContainer" class="photo-container">
+                <!-- Photos injected via JS -->
+            </div>
+        </div>
+
+        <!-- Track Info -->
+        <div class="track-info">
+            <div class="text-area">
+                <h2 id="songTitle">Every Moment With You</h2>
+                <p id="artistName">Happy Valentine's Day</p>
+            </div>
+            <i class="fas fa-heart active-heart"></i>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-area">
+            <div class="progress-bar-bg" id="progressBarArea">
+                <div id="progressBar" class="progress-bar-fill"></div>
+                <div id="progressHandle" class="progress-handle"></div>
+            </div>
+            <div class="time-codes">
+                <span id="currentTime">0:00</span>
+                <span id="totalTime">3:42</span>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <i class="fas fa-random shuffle-btn"></i>
+            <i class="fas fa-step-backward prev-btn"></i>
+
+            <div id="playBtn" class="play-pause-btn">
+                <i class="fas fa-play"></i>
+            </div>
+
+            <i class="fas fa-step-forward next-btn"></i>
+            <i class="fas fa-redo-alt repeat-btn"></i>
+        </div>
+
+        <!-- Devices / Share -->
+        <div class="bottom-icons">
+            <i class="fas fa-desktop"></i>
+            <i class="fas fa-share-alt"></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
